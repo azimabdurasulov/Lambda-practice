@@ -9,9 +9,14 @@ length1 = lambda l: len(l)
 first2 = lambda t: t[0]
 print(first2((2, 3, 4, 5)))
 # create a lambda function that returns the last element of the tuple 't' given as an argument, then assign it to variable 'last2'.
-
+last2 = lambda t: t[-1]
+print(last2((2, 4, 5, 4)))
 # create a lambda function that returns the length of the tuple 't' given as an argument, then assign it to variable 'length2'.
-
+length2 = lambda t: len(t)
+print(length2((2, 3, 4, 5, 6)))
 # create a lambda function that returns the value in key 'age' of the dict 'd' given as an argument, then assign it to variable 'age'.
-
+age = lambda d: d["age"]
+print(age({"name": "Azim", "age": 17}))
 # create a lambda function that returns the value in key 'name' of the dict 'd' given as an argument, then assign it to variable 'name'.
+name = lambda d: d["name"]
+print(name({"name": "Azim", "age": 17}))
